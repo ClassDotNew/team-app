@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get '/pages' => 'pages#index'
 
 
+
   get 'things' => 'things#index'
 
 
@@ -20,6 +21,8 @@ Rails.application.routes.draw do
   get '/examples' => 'examples#index'
 
 
+
   get 'klaverpages' => 'klaver_pages#index'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
