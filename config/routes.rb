@@ -3,7 +3,11 @@ Rails.application.routes.draw do
 
   get '/pages' => 'pages#index'
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+]
+>>>>>>> 718589d53ed57346adaf75cc34de706aab742097
 =======
   
 >>>>>>> d2915cb579d5b87ae66f45cdab9eede714c41e9a
