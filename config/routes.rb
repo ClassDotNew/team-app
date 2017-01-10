@@ -22,5 +22,6 @@ Rails.application.routes.draw do
   get '/examples' => 'examples#index'
 >>>>>>> 73749e7ed53e2939b55ccfe5e33439be53886209
 
+  get 'klaverpages' => 'klaver_pages#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
