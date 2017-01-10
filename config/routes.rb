@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+
+  get   '/cali' => 'cali#index'
+
   get 'examples/index'
+
 
   get '/pages' => 'pages#index'
 
