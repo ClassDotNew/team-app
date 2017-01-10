@@ -2,15 +2,12 @@ Rails.application.routes.draw do
   get 'examples/index'
 
   get '/pages' => 'pages#index'
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-]
->>>>>>> 718589d53ed57346adaf75cc34de706aab742097
-=======
-  
->>>>>>> d2915cb579d5b87ae66f45cdab9eede714c41e9a
+
+
+  get 'things' => 'things#index'
+
+
   # Shoes COntroller
   get '/shoes' => 'shoes#index'
 
@@ -23,6 +20,9 @@ Rails.application.routes.draw do
 
   get '/examples' => 'examples#index'
 
-  get '/klaverpages' => 'klaver_pages#index'
+
+
+  get 'klaverpages' => 'klaver_pages#index'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
