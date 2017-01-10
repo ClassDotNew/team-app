@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'examples/index'
 
   get '/pages' => 'pages#index'
-]
+  
   # Shoes COntroller
   get '/shoes' => 'shoes#index'
 
