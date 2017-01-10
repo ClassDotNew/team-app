@@ -8,6 +8,9 @@ Rails.application.routes.draw do
 
   get '/pages/:id' => 'pages#show'
 
+
+  get '/cats' => 'cats#index'
+
   get '/people' => 'people#index'
 
 
